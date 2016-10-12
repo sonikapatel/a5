@@ -1,0 +1,19 @@
+
+<strong>{{song.title}}</strong> <br>
+Price: ${{song.price}} <br>
+Play Count: {{song.playCount}} 
+
+{{#if isPopular}}
+<img src='http://comps.canstockphoto.com/can-stock-photo_csp16348657.jpg' style='width:50px;'>
+{{/if}}
+
+<br>
+
+
+Price Range: 
+{{#if isPricey}}
+$$
+{{else}}
+ $
+{{/if}}
+<hr>
