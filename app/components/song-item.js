@@ -7,6 +7,6 @@ export default Ember.Component.extend({
   
  isPricey: Ember.computed('song.price', function(){
   return this.get('song.price') > 1;
-  }),
+  })
 
 });
